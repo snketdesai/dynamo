@@ -55,7 +55,7 @@ end
 
 
 git "#{node['dynamic-dynamodb']['base_path']}/dynamic-dynamodb" do
-    repository "git://github.com/sagarruchandani/dynamo-node-opsworks-cookbook.git"
+    repository "git://github.com/sebdah/dynamic-dynamodb.git"
     reference "master"
     user node['dynamic-dynamodb']['user']
     group node['dynamic-dynamodb']['group']
