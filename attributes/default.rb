@@ -1,0 +1,15 @@
+default['dynamic-dynamodb']['base_path'] = '/opt'
+default['dynamic-dynamodb']['log_path'] = '/var/log'
+default['dynamic-dynamodb']['log_level'] = 'debug'
+default['dynamic-dynamodb']['log_file'] = 'dynamic-dynamodb.log'
+default['dynamic-dynamodb']['user'] = 'ubuntu'
+default['dynamic-dynamodb']['group'] = 'ubuntu'
+default['dynamic-dynamodb']['dry_run'] = false
+default['dynamic-dynamodb']['daemon'] = false
+default['dynamic-dynamodb']['config_file'] = 'dynamic-dynamodb.conf'
+default['dynamic-dynamodb']['config']['global']['aws_access_key_id'] = 'AKIAJZUHAAYNHF4XIJ3Q'
+default['dynamic-dynamodb']['config']['global']['aws_secret_access_key_id'] = 'IxxZJ7NKWoyhQrC2oH2wn4bdAr0jA91kQmwk79YV'
+default['dynamic-dynamodb']['config']['global']['region'] = 'us-east-1'
+default['dynamic-dynamodb']['config']['global']['check_interval'] = 30
+default['dynamic-dynamodb']['config']['global']['circuit_breaker_url'] = nil
+default['dynamic-dynamodb']['config']['global']['circuit_breaker_timeout'] = 30
