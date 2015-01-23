@@ -13,5 +13,5 @@ default['dynamic-dynamodb']['config']['global']['region'] = 'us-east-1'
 default['dynamic-dynamodb']['config']['global']['check_interval'] = 30
 default['dynamic-dynamodb']['config']['global']['circuit_breaker_url'] = nil
 default['dynamic-dynamodb']['config']['global']['circuit_breaker_timeout'] = 30
-default['dynamic-dynamodb']['Username'] = 'sagarruchandani'
-default['dynamic-dynamodb']['passphrase'] = 's1a2g3a4r5'
+default['dynamic-dynamodb']['Username'] = 'git_username'
+default['dynamic-dynamodb']['passphrase'] = 'git_password'
